@@ -13,6 +13,7 @@ RL.input.on("keypress", (chunk, key) => {
     key.name === "down"
   ) {
     console.clear();
+    
     console.log("keyname", key.name);
   } else if (key.name === "q") {
     RL.close();
